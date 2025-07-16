@@ -4,8 +4,8 @@ from typing import Optional, Tuple, Iterator, TypeVar, Iterable
 from binascii import hexlify
 import math
 import base64
-from Cryptodome.Cipher import PKCS1_v1_5, PKCS1_OAEP
-from Cryptodome.PublicKey.RSA import construct
+from Crypto.Cipher import PKCS1_v1_5, PKCS1_OAEP
+from Crypto.PublicKey.RSA import construct
 
 
 T = TypeVar('T')
