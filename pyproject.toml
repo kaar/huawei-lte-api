@@ -5,7 +5,7 @@ description = "API For huawei LAN/WAN LTE Modems"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "pycryptodome>=3.23.0",
+    "pycryptodomex>=3.23.0",
     "requests>=2.32.4",
     "xmltodict>=0.14.2",
 ]
